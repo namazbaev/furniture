@@ -7,26 +7,34 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        black: {
-          DEFAULT: "#1D2A44",
-          900: "#041330",
-        },
-        cyan: {
-          DEFAULT: "#0AC9BD",
-        },
-        orange: {
-          DEFAULT: "#FE7E00",
-        },
-        blue: {
-          100: "#F4F8FF",
-          500: "#5B6E95",
-        },
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+    colors: {
+      white: {
+        DEFAULT: "#FFFFFF",
       },
+      black: {
+        DEFAULT: "#1D2A44",
+        900: "#041330",
+      },
+      cyan: {
+        DEFAULT: "#0AC9BD",
+      },
+      orange: {
+        DEFAULT: "#FE7E00",
+      },
+      purple: {
+        DEFAULT: "#EC3476",
+      },
+      blue: {
+        100: "#F4F8FF",
+        500: "#5B6E95",
+      },
+      gray: {
+        DEFAULT: "#D0DAEE",
+      },
+      background: "var(--background)",
+      foreground: "var(--foreground)",
     },
+    extend: {},
   },
   plugins: [],
 };
