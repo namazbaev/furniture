@@ -2,6 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-family: 'Plus Jakarta Sans';
+  src: url('./fonts/PlusJakartaSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  font-family: 'Plus Jakarta Sans';
+  src: url('./fonts/PlusJakartaSans-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  font-family: 'Plus Jakarta Sans';
+  src: url('./fonts/PlusJakartaSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  font-family: 'Plus Jakarta Sans';
+  src: url('./fonts/PlusJakartaSans-SemiBoldItalic.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  font-family: 'Plus Jakarta Sans';
+  src: url('./fonts/PlusJakartaSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  font-family: 'Plus Jakarta Sans';
+  src: url('./fonts/PlusJakartaSans-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-family: 'Plus Jakarta Sans';
+  src: url('./fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-family: 'Plus Jakarta Sans';
+  src: url('./fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,5 +83,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
