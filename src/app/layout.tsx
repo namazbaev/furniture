@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import React, { Fragment } from "react";
 import "./globals.css";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,7 +16,10 @@ export default function RootLayout({
   return (
     <Fragment>
       <html lang="en">
-        <body>{children}</body>
+        <body className="p-4">
+          <Header />
+          {children}
+        </body>
       </html>
     </Fragment>
   );
